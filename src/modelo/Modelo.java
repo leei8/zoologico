@@ -1,3 +1,4 @@
+package modelo;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -5,7 +6,7 @@ import java.util.ArrayList;
 
 public class Modelo extends Conector {
 
-	Modelo() {
+	public Modelo() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
